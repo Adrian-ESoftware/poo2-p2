@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/Livro.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/Livro.java" />
+              <option name="updatedContent" value="class Livro extends Produto {&#10;    private String autor;&#10;    private String isbn;&#10;&#10;    public Livro(String nome, double preco, String codigoBarras, String autor, String isbn) {&#10;        super(nome, preco, codigoBarras);&#10;        this.autor = autor;&#10;        this.isbn = isbn;&#10;    }&#10;&#10;    @Override&#10;    public void exibirDetalhes() {&#10;        super.exibirDetalhes();&#10;        System.out.println(&quot;Autor: &quot; + autor);&#10;        System.out.println(&quot;ISBN: &quot; + isbn);&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Produto.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/Produto.java" />
+              <option name="updatedContent" value="class Produto {&#10;    protected String nome;&#10;    protected double preco;&#10;    protected String codigoBarras;&#10;&#10;    public Produto(String nome, double preco, String codigoBarras) {&#10;        this.nome = nome;&#10;        this.preco = preco;&#10;        this.codigoBarras = codigoBarras;&#10;    }&#10;&#10;    public void exibirDetalhes() {&#10;        System.out.println(&quot;Nome: &quot; + nome);&#10;        System.out.println(&quot;Preço: R$ &quot; + preco);&#10;        System.out.println(&quot;Código de Barras: &quot; + codigoBarras);&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Roupa.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/Roupa.java" />
+              <option name="updatedContent" value="class Roupa extends Produto {&#10;    private String tamanho;&#10;    private String material;&#10;&#10;    public Roupa(String nome, double preco, String codigoBarras, String tamanho, String material) {&#10;        super(nome, preco, codigoBarras);&#10;        this.tamanho = tamanho;&#10;        this.material = material;&#10;    }&#10;&#10;    @Override&#10;    public void exibirDetalhes() {&#10;        super.exibirDetalhes();&#10;        System.out.println(&quot;Tamanho: &quot; + tamanho);&#10;        System.out.println(&quot;Material: &quot; + material);&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
